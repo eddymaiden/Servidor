@@ -12,7 +12,6 @@ void Escribir_Puerto (int puerto);
 /* FUNCION MAIN DEL PROGRAMA SERVIDOR */
 int main(int argc,char* argv[])
 {
-	printf("HELLO, WORLD!\n");
     /* El esqueleto de la funcion principal muestra, de forma esquematica la secuencia 
        de operaciones y la correspondiente traza que se sugiere */
 
