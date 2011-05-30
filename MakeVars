@@ -1,0 +1,22 @@
+OS=$(shell uname -s)
+
+PRAC=servidor
+CURSO=2011
+
+EXE=servidor
+DYNLIB=
+DIRS=cliente_src
+
+CC=cc
+LD=ld
+AR=ar 
+RANLIB=ranlib
+
+INCLUDE=
+DEFINE=
+LIBS=
+
+CFLAGS =-Wall -g $(INCLUDE) $(DEFINE)
+ARFLAGS=
+LDFLAGS=-Bdynamic
+
