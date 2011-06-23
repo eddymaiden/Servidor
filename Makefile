@@ -3,6 +3,7 @@ C_SRCS= $(shell ls *.c 2> /dev/null)
 C_OBJS= $(patsubst %.c,%.o,$(C_SRCS))
 
 all: dirs $(EXE) 
+	ctags -R * 
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $<

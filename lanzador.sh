@@ -37,7 +37,7 @@ Timeout()
 }
 
 trap Alarma 14
-Timeout $[2+(2*$#)]
+Timeout $(( 2+(200*$#) ))
 
 # La opción -cli indica que se quieren trazar las llamadas de los clientes
 if [ _$1 = "_-cli" ] 
